@@ -1,0 +1,20 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "ameaa.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "ameaa.refmap.json",
+  "mixins": [
+    "AMEMachinesMixin",
+    "AbstractCardItemMixin",
+    "DegitalMinerFilterToolItemMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}
